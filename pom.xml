@@ -8,24 +8,23 @@
 		<version>3.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>io.github.michelalbers</groupId>
 	<artifactId>deployment-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>deployment-demo</name>
 	<description>Demo project for Spring Boot</description>
-	<url/>
+    <url>https://github.com/michelalbers/deployment-demo</url>
+    <scm>
+        <connection>scm:git:https://github.com/michelalbers/deployment-demo.git</connection>
+        <developerConnection>scm:git:ssh://github.com:michelalbers/deployment-demo.git</developerConnection>
+        <url>https://github.com/michelalbers/deployment-demo</url>
+    </scm>
 	<licenses>
 		<license/>
 	</licenses>
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -41,6 +40,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>
