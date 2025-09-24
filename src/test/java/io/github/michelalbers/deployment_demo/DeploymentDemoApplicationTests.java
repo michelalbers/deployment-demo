@@ -1,4 +1,4 @@
-package com.example.deployment_demo;
+package io.github.michelalbers.deployment_demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.example.deployment_demo;
+package io.github.michelalbers.deployment_demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
